@@ -1,0 +1,863 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.page {
+    margin: 4rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: end;
+}
+
+.navbar a {
+    padding: 5px;
+    margin: 0 30px;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(238, 22%, 44%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar a:hover {
+    color: #000;
+    transition: all 0.2s;
+}
+
+.text-content {
+    margin: 8rem 0;
+
+}
+
+.text-content h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2.21em;
+    color: hsl(243, 87%, 12%);
+
+}
+
+.text-content p {
+    margin: 20px 0;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(238, 22%, 44%);
+}
+
+.input-field input {
+    width: 40%;
+    padding: 11px 16px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid hsl(238, 22%, 44%);
+}
+
+input::placeholder {
+    color: hsl(0, 0%, 75%);
+}
+
+.input-field button {
+    margin: 0 10px;
+    border-radius: 3px;
+    background-color: royalblue;
+    color: #fff;
+    width: 30%;
+    border: none;
+    cursor: pointer;
+    padding: 12px 11px;
+}
+
+button:hover {
+    background-color: #6B9BFF;
+    transition: 0.2s;
+}
+
+.img-right-1 {
+    margin: 3rem auto;
+}
+
+/* page-2 */
+
+.page-2 {
+    background-color: #F8F8FE;
+    width: 100%;
+    margin-top: 12rem;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 4rem;
+}
+
+.page-2 img {
+    width: 70%;
+    margin: 10rem auto;
+    display: flex;
+}
+
+.works a {
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+    font-weight: 700;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+
+/* Testiminial */
+
+.card {
+    margin-top: 5rem;
+    background-color: #fff;
+    box-shadow: 0 0 5px 5px rgb(244, 243, 243);
+    width: 60%;
+}
+
+.explain {
+    margin: 10px;
+}
+
+.para-testimonial {
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial {
+    display: flex;
+    margin: 15px 0;
+}
+
+.name-post {
+    width: 100%;
+    margin: 18px 2px;
+    font-size: 12px;
+}
+
+.posting {
+    font-size: 10px;
+    color: hsl(0, 0%, 75%);
+}
+
+.profile-img img {
+    border-radius: 50%;
+    width: 40px;
+    margin: 10px 20px;
+}
+
+/* Section-3 */
+.page-3 {
+    background-color: hsl(238, 22%, 44%);
+}
+
+.container-3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: #fff;
+}
+
+.info {
+    margin: 4rem 2rem;
+    width: 100%;
+}
+
+.info h4 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.info p {
+    color: hsl(0, 0%, 75%);
+}
+
+.input-field-2 {
+    margin-top: 4rem;
+    align-items: center;
+}
+
+.input-field-2 input {
+    width: 80%;
+    padding: 13px 16px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid hsl(238, 22%, 44%);
+}
+
+.input-field-2 button {
+    margin: 10px 0;
+    border-radius: 3px;
+    background-color: royalblue;
+    color: #fff;
+    width: 40%;
+    border: none;
+    cursor: pointer;
+    padding: 13px 11px;
+}
+
+button:hover {
+    background-color: #6B9BFF;
+    transition: 0.2s;
+}
+
+/* Footer */
+.footer {
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+}
+
+.container-4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.div-1 {
+    margin: 3rem 2rem;
+    width: 100%;
+}
+
+.contact-icon,
+.email-icon {
+    display: flex;
+    flex-direction: row;
+    margin: 0 2rem 30px;
+}
+
+.contact-icon p {
+    margin: 0 15px;
+}
+
+.email-icon p {
+    margin: 0 15px;
+}
+
+.div-2 {
+    margin: 10rem 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-2 a {
+    text-decoration: none;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.div-2 a:hover {
+    color: royalblue;
+    transition: 0.2s ease;
+}
+
+.div-3 {
+    margin: 10rem 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-3 a {
+    text-decoration: none;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.div-3 a:hover {
+    color: royalblue;
+    transition: 0.2s ease;
+}
+
+.div-4 {
+    margin: 14rem 0;
+    width: 100%;
+}
+
+.div-4 a i {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 8px;
+}
+
+.div-4 a i:hover {
+    color: royalblue;
+    transition: 0.2s ease;
+}
+
+
+/* Tablet - View */
+@media screen and (max-width:768px) {
+    .page {
+        margin: 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    br {
+        display: none;
+    }
+
+    .navbar a {
+        padding: 0;
+        width: 80%;
+        margin: 10px 10px;
+        text-decoration: none;
+        color: hsl(238, 22%, 44%);
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .text-content {
+        margin: 5rem 0;
+    }
+
+    .text-content h3 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        width: 80%;
+        color: hsl(243, 87%, 12%);
+
+    }
+
+    .text-content p {
+        margin: 40px 0;
+        width: 80%;
+        font-family: 'Raleway', sans-serif;
+        color: hsl(238, 22%, 44%);
+    }
+
+    .input-field input {
+        width: 80%;
+        margin: 0 30px;
+        padding: 11px 16px;
+        border-radius: 3px;
+        outline: none;
+        border: 1px solid hsl(238, 22%, 44%);
+    }
+
+    input::placeholder {
+        color: hsl(0, 0%, 75%);
+    }
+
+    .input-field button {
+        margin: 20px 3rem 0;
+        border-radius: 3px;
+        background-color: royalblue;
+        color: #fff;
+        width: 80%;
+        border: none;
+        cursor: pointer;
+        padding: 12px 11px;
+    }
+
+    button:hover {
+        background-color: #6B9BFF;
+        transition: 0.2s;
+    }
+
+    .img-right-1 {
+        display: none;
+    }
+
+
+    .page-2 {
+        background-color: #e1e1e9;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .container-2 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 4rem;
+    }
+
+    .page-2 img {
+        width: 80%;
+        margin: 0;
+        display: flex;
+    }
+
+    .works a {
+        text-decoration: none;
+        color: hsl(170, 45%, 43%);
+        font-weight: 700;
+        border-bottom: 1px solid hsl(170, 45%, 43%);
+    }
+
+
+    .card {
+        margin-top: 5rem;
+        background-color: #fff;
+        box-shadow: 0 0 5px 5px rgb(244, 243, 243);
+        width: 100%;
+    }
+
+    .explain {
+        margin: 10px;
+    }
+
+    .para-testimonial {
+        font-size: 16px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .testimonial {
+        display: flex;
+        margin: 15px 0;
+    }
+
+    .name-post {
+        width: 100%;
+        margin: 18px 2px;
+        font-size: 12px;
+    }
+
+    .posting {
+        font-size: 10px;
+        color: hsl(0, 0%, 75%);
+    }
+
+    .profile-img img {
+        border-radius: 50%;
+        width: 40px;
+        margin: 10px 20px;
+    }
+
+    .page-3 {
+        background-color: hsl(238, 22%, 44%);
+        width: 100%;
+    }
+
+    .container-3 {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+    }
+
+    .info {
+        margin: 4rem 2rem;
+        width: 80%;
+    }
+
+    .info h4 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .info p {
+        color: hsl(0, 0%, 75%);
+    }
+
+    .input-field-2 {
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .input-field-2 input {
+        width: 85%;
+        margin-left: 20px;
+        padding: 13px 16px;
+        border-radius: 3px;
+        outline: none;
+        border: 1px solid hsl(238, 22%, 44%);
+    }
+
+    .input-field-2 button {
+        margin: 10px 50px;
+        border-radius: 3px;
+        background-color: royalblue;
+        color: #fff;
+        width: 80%;
+        border: none;
+        cursor: pointer;
+        padding: 13px 11px;
+    }
+
+   
+    .footer {
+        background-color: hsl(243, 87%, 12%);
+        overflow: hidden;
+        width: 100%;
+        color: #fff;
+    }
+    .container-4 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .div-1 {
+        margin: 3rem 2rem;
+        width: 100%;
+    }
+
+    .contact-icon,
+    .email-icon {
+        display: flex;
+        flex-direction: row;
+        margin: 0 2rem 30px;
+    }
+
+    .contact-icon p {
+        margin: 0 15px;
+    }
+
+    .email-icon p {
+        margin: 0 15px;
+    }
+
+    .div-2 {
+        margin: 0 4rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-2 a {
+        text-decoration: none;
+        margin: 10px 0;
+        color: #fff;
+    }
+
+    .div-2 a:hover {
+        color: royalblue;
+        transition: 0.2s ease;
+    }
+
+    .div-3 {
+        margin: 20px 4rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-3 a {
+        text-decoration: none;
+        margin: 10px 0;
+        color: #fff;
+    }
+
+    .div-4 {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .div-4 a i {
+        font-size: 20px;
+        text-decoration: none;
+        color: #fff;
+        margin: 0 8px;
+    }
+}
+
+
+
+
+/* Mobile - View */
+@media screen and (max-width:375px) {
+    .page {
+        margin: 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    br {
+        display: none;
+    }
+
+    .brand-logo {
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+    .navbar a {
+        padding: 0;
+        margin: 10px 30px;
+        text-decoration: none;
+        color: hsl(238, 22%, 44%);
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .text-content {
+        margin: 5rem 0;
+    }
+
+    .text-content h3 {
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 2em;
+        color: hsl(243, 87%, 12%);
+
+    }
+
+    .text-content p {
+        margin: 40px 0;
+        font-family: 'Raleway', sans-serif;
+        color: hsl(238, 22%, 44%);
+    }
+
+    .input-field input {
+        width: 80%;
+        padding: 11px 16px;
+        border-radius: 3px;
+        outline: none;
+        border: 1px solid hsl(238, 22%, 44%);
+    }
+
+    input::placeholder {
+        color: hsl(0, 0%, 75%);
+    }
+
+    .input-field button {
+        margin: 20px 50px 0;
+        border-radius: 3px;
+        background-color: royalblue;
+        color: #fff;
+        width: 80%;
+        border: none;
+        cursor: pointer;
+        padding: 12px 11px;
+    }
+
+    button:hover {
+        background-color: #6B9BFF;
+        transition: 0.2s;
+    }
+
+    .img-right-1 {
+        display: none;
+    }
+
+
+    .page-2 {
+        background-color: transparent !important;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .container-2 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 4rem;
+    }
+
+    .page-2 img {
+        width: 80%;
+        margin: 0;
+        display: flex;
+    }
+
+    .works a {
+        text-decoration: none;
+        color: hsl(170, 45%, 43%);
+        font-weight: 700;
+        border-bottom: 1px solid hsl(170, 45%, 43%);
+    }
+
+
+    .card {
+        margin-top: 5rem;
+        background-color: #fff;
+        box-shadow: 0 0 5px 5px rgb(244, 243, 243);
+        width: 100%;
+    }
+
+    .explain {
+        margin: 10px;
+    }
+
+    .para-testimonial {
+        font-size: 16px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .testimonial {
+        display: flex;
+        margin: 15px 0;
+    }
+
+    .name-post {
+        width: 100%;
+        margin: 18px 2px;
+        font-size: 12px;
+    }
+
+    .posting {
+        font-size: 10px;
+        color: hsl(0, 0%, 75%);
+    }
+
+    .profile-img img {
+        border-radius: 50%;
+        width: 40px;
+        margin: 10px 20px;
+    }
+
+    .page-3 {
+        background-color: hsl(238, 22%, 44%);
+    }
+
+    .container-3 {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+    }
+
+    .info {
+        margin: 4rem 2rem;
+        width: 80%;
+    }
+
+    .info h4 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .info p {
+        color: hsl(0, 0%, 75%);
+    }
+
+    .input-field-2 {
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .input-field-2 input {
+        width: 80%;
+        margin-left: 20px;
+        padding: 13px 16px;
+        border-radius: 3px;
+        outline: none;
+        border: 1px solid hsl(238, 22%, 44%);
+    }
+
+    .input-field-2 button {
+        margin: 10px 4rem;
+        border-radius: 3px;
+        background-color: royalblue;
+        color: #fff;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+        padding: 13px 11px;
+    }
+
+    button:hover {
+        background-color: #6B9BFF;
+        transition: 0.2s;
+    }
+
+    .footer {
+        background-color: hsl(243, 87%, 12%);
+        overflow: hidden;
+        color: #fff;
+    }
+
+    .container-4 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .div-1 {
+        margin: 3rem 2rem;
+        width: 100%;
+    }
+
+    .contact-icon,
+    .email-icon {
+        display: flex;
+        flex-direction: row;
+        margin: 0 2rem 30px;
+    }
+
+    .contact-icon p {
+        margin: 0 15px;
+    }
+
+    .email-icon p {
+        margin: 0 15px;
+    }
+
+    .div-2 {
+        margin: 0 4rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-2 a {
+        text-decoration: none;
+        margin: 10px 0;
+        color: #fff;
+    }
+
+    .div-2 a:hover {
+        color: royalblue;
+        transition: 0.2s ease;
+    }
+
+    .div-3 {
+        margin: 20px 4rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-3 a {
+        text-decoration: none;
+        margin: 10px 0;
+        color: #fff;
+    }
+
+    .div-4 {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .div-4 a i {
+        font-size: 20px;
+        text-decoration: none;
+        color: #fff;
+        margin: 0 8px;
+    }
+}
+
